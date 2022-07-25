@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "Microsoft JhengHei", sans-serif;
+  line-height: 1.5;
+  font-style: italic;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.5;
+}
+/* -------------------------------- */
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.fontWhite{
+  color: #FFF;
+}
+.fontName{
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 900;
+}
+.fontTitle{
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 500;
+  padding-top: 56px;
+}
+.fontStyle1{
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.fontStyle2{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.fontStyle3{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.fontStyle4{
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 500;
+  text-align: center;
+}
+.fontNormal{
+  font-style: normal;
+}
+
+/* ------------------------------------- */
+/* Header */
+.header{
+  background-image: url(../img/banner.png);
+  height: 958px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 308px 0px;
+}
+.headerContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerInfo{
+  margin-top: 32px;
+}
+.headerSns{
+  display: flex;
+  margin-top: 40px;
+}
+.headerSns li{
+  margin: 0px 8px;
+}
+
+/* About */
+.aboutContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.aboutPhoto{
+  margin-top: 40px;
+}
+.aboutName{
+  margin-top: 20px;
+}
+.aboutBirth{
+  margin-top: 4px;
+}
+.aboutSchool{
+  margin-top: 8px;
+}
+.aboutList{
+  border-top: 1px solid #000;
+  margin-top: 24px;
+  padding: 0px 21px;
+}
+.aboutList li{
+  margin-top: 28px;
+}
+.aboutList li::before{
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #891818;
+  border-radius: 11px;
+  margin-right: 16px;
+}
+
+/* Brand */
+.brand{
+  background: #000;
+  margin-top: 56px;
+  padding-bottom: 160px;
+}
+.brandContent{
+  text-align: center;
+}
+.brandSlogan{
+  margin-top: 12px;
+}
+.brandInfo{
+  margin-top: 32px;
+}
+.brandPic{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 28px; 
+  /* 68-40=28 */
+}
+.brandPic li{
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* Work */
+.workContent{
+  text-align: center;
+}
+.workInfo{
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.workPic{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.workPic li{
+  margin-top: 48px;
+}
+
+/* Contact */
+.footer{
+  margin-top: 144px;
+  padding-bottom: 64px;
+  background: #000;
+}
+.footerContent{
+  text-align: center;
+}
+.contactList li{
+  margin-top: 16px;
+}
