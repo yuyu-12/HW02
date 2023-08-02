@@ -162,6 +162,7 @@ a:hover {
     width: 1320px;
     padding: 160px 0;
     background: url('../img/background-img.png') no-repeat center / auto;
+
 }
 
 .introduction-text {
@@ -211,7 +212,7 @@ a:hover {
 
 /* ------my projects------ */
 .project {
-
+    width: 1320px;
     padding: 160px 0;
 }
 
