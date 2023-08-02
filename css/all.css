@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bruno Ace SC', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFF;
+    background-color: #000;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #D1D1D1;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* -------------------------------- */
+.text-right {
+    text-align: right;
+}
+
+/* font-style*/
+.fs-128 {
+    font-size: 128px;
+    color: #00FFA3;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+/* font-color*/
+.font-black {
+    color: #000;
+}
+
+/* flex */
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* margin-left */
+.ml-auto {
+    margin-left: auto;
+}
+
+.ml-1 {
+    margin-left: 4px;
+}
+
+.ml-4 {
+    margin-left: 16px;
+}
+
+.ml-5 {
+    margin-left: 20px;
+}
+
+.ml-6 {
+    margin-left: 24px;
+}
+
+/* margin-bottom */
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
+
+.mb-7 {
+    margin-bottom: 28px;
+}
+
+.mb-8 {
+    margin-bottom: 32px;
+}
+
+.mb-9 {
+    margin-bottom: 36px;
+}
+
+
+/* button */
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #000;
+    display: inline-flex;
+}
+
+/* background */
+.bg-white {
+    background: #FFF;
+}
+
+/* ----------------------------------------------------- */
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* ------header------ */
+.header {
+    padding-top: 40px;
+}
+
+/* ------banner------ */
+.banner {
+    padding: 72px 0;
+}
+
+.banner-text {
+    width: 636px;
+}
+
+/* ------Introduction------ */
+.introduction {
+    width: 1320px;
+    padding: 160px 0;
+    background: url('../img/background-img.png') no-repeat center / auto;
+}
+
+.introduction-text {
+    width: 526px;
+}
+
+.introduction-image {
+    width: 746px;
+}
+
+/* ------about me------ */
+.about {
+    width: 1320px;
+    padding: 160px 0;
+}
+
+.about-cardGroup {
+    width: 636px;
+}
+
+.about-card {
+    width: calc(50% - 12px);
+    /* 運算符號前都要留空格不然不起作用 */
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+}
+
+.about-discribe {
+    width: 526px;
+}
+
+/* -----contact me------ */
+.contact {
+    padding: 127px 0;
+}
+
+.sns-icon img {
+    border-radius: 40px;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.sns-icon img:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+/* ------my projects------ */
+.project {
+
+    padding: 160px 0;
+}
+
+.project-title {
+    width: 746px;
+}
+
+.project-right {
+    width: 856px;
+}
+
+/* ------footer------ */
+.footer {
+    text-align: center;
+    padding: 40px;
+}
